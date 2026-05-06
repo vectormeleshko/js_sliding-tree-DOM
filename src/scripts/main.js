@@ -8,7 +8,7 @@ element.forEach((item) => {
   item.prepend(span);
   span.append(span.nextSibling);
 
-  span.addEventListener('click', (e) => {
+  span.addEventListener('click', (ev) => {
     const list = item.querySelector('ul');
 
     if (list) {
